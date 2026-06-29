@@ -1,4 +1,4 @@
-const BASE = 'http://localhost:8080'
+const BASE = '/api'
 
 function authHeader(): Record<string, string> {
   const token = localStorage.getItem('token')
